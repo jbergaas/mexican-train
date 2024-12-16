@@ -66,7 +66,7 @@
 				<CardTitle>Select Your Pieces</CardTitle>
 			</CardHeader>
 			<CardContent>
-				<div class="grid grid-cols-7 gap-2">
+				<div class="grid grid-cols-3 gap-2 md:grid-cols-7">
 					{#each dominoSet.pieces as piece (piece.join('-'))}
 						<div animate:flip={{ duration: 300 }}>
 							<Domino
