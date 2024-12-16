@@ -8,7 +8,7 @@
 	<title>Mexican Train - Longest Path</title>
 </svelte:head>
 
-<div class="min-h-screen bg-background text-foreground">
+<div class="min-h-screen bg-background font-sans text-foreground">
 	<Background />
 	<nav class="border-b border-border/40">
 		<div class="container flex h-16 items-center px-4">

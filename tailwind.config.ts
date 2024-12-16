@@ -14,6 +14,9 @@ const config: Config = {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', ...fontFamily.sans]
+			},
 			colors: {
 				border: 'hsl(var(--border) / <alpha-value>)',
 				input: 'hsl(var(--input) / <alpha-value>)',
@@ -53,9 +56,6 @@ const config: Config = {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
-			},
-			fontFamily: {
-				sans: [...fontFamily.sans]
 			}
 		}
 	}

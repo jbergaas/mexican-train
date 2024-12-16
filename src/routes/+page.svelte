@@ -5,7 +5,7 @@
 <main class="flex-1">
 	<section class="space-y-6 pb-8 pt-6 md:pb-12 md:pt-10 lg:py-32">
 		<div class="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
-			<h1 class="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
+			<h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl">
 				Find Your Perfect
 				<span
 					class="text-gradient bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent"
@@ -26,7 +26,7 @@
 
 	<section class="container space-y-6 py-8 md:py-12 lg:py-24">
 		<div class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-			<h2 class="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl">How It Works</h2>
+			<h2 class="text-3xl leading-[1.1] sm:text-3xl md:text-6xl">How It Works</h2>
 			<p class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
 				Select your domino pieces, set the center tile, and we'll calculate all possible
 				combinations to help you make the best move.
